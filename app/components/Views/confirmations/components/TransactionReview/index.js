@@ -51,7 +51,7 @@ import {
 } from '../../../../../util/transactions';
 import { WALLET_CONNECT_ORIGIN } from '../../../../../util/walletconnect';
 import AccountFromToInfoCard from '../../../../UI/AccountFromToInfoCard';
-import ApprovalTagUrl from '../../../../UI/ApprovalTagUrl';
+import ApprovalTagUrl from '../ApprovalTagUrl';
 import ActionView, { ConfirmButtonState } from '../../../../UI/ActionView';
 import QRSigningDetails from '../../../../UI/QRHardware/QRSigningDetails';
 import withQRHardwareAwareness from '../../../../UI/QRHardware/withQRHardwareAwareness';

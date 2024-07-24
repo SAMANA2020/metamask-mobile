@@ -3,7 +3,7 @@ import React from 'react';
 import renderWithProvider from '../../../../../util/test/renderWithProvider';
 import ApproveTransactionHeader from '.';
 import { backgroundState } from '../../../../../util/test/initial-root-state';
-import { APPROVAL_TAG_URL_ORIGIN_PILL } from '../../../../UI/ApprovalTagUrl';
+import { APPROVAL_TAG_URL_ORIGIN_PILL } from '../ApprovalTagUrl';
 import { createMockAccountsControllerState } from '../../../../../util/test/accountsControllerTestUtils';
 
 const MOCK_ADDRESS_1 = '0xC4955C0d639D99699Bfd7Ec54d9FaFEe40e4D272';

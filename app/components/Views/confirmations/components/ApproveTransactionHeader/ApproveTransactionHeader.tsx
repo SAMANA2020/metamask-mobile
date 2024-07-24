@@ -24,7 +24,7 @@ import {
 import stylesheet from './ApproveTransactionHeader.styles';
 import { ApproveTransactionHeaderI } from './ApproveTransactionHeader.types';
 import { selectInternalAccounts } from '../../../../../selectors/accountsController';
-import ApprovalTagUrl from '../../../../UI/ApprovalTagUrl';
+import ApprovalTagUrl from '../ApprovalTagUrl';
 
 const ApproveTransactionHeader = ({
   from,
