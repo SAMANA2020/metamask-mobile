@@ -2,15 +2,15 @@ import { toChecksumAddress } from 'ethereumjs-util';
 import React, { useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { strings } from '../../../../locales/i18n';
-import TagUrl from '../../../component-library/components/Tags/TagUrl';
-import AppConstants from '../../../core/AppConstants';
-import { selectAccountsByChainId } from '../../../selectors/accountTrackerController';
-import { getUrlObj, prefixUrlWithProtocol } from '../../../util/browser';
-import { WALLET_CONNECT_ORIGIN } from '../../../util/walletconnect';
-import useFavicon from '../../hooks/useFavicon/useFavicon';
-import { selectInternalAccounts } from '../../../selectors/accountsController';
-import { useStyles } from '../../../component-library/hooks';
+import { strings } from '../../../../../../locales/i18n';
+import TagUrl from '../../../../../component-library/components/Tags/TagUrl';
+import AppConstants from '../../../../../core/AppConstants';
+import { selectAccountsByChainId } from '../../../../../selectors/accountTrackerController';
+import { getUrlObj, prefixUrlWithProtocol } from '../../../../../util/browser';
+import { WALLET_CONNECT_ORIGIN } from '../../../../../util/walletconnect';
+import useFavicon from '../../../../hooks/useFavicon/useFavicon';
+import { selectInternalAccounts } from '../../../../../selectors/accountsController';
+import { useStyles } from '../../../../../component-library/hooks';
 import stylesheet from './ApprovalTagUrl.styles';
 
 const { ORIGIN_DEEPLINK, ORIGIN_QR_CODE } = AppConstants.DEEPLINKS;
