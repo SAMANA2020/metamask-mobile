@@ -18,6 +18,8 @@ module.exports = function (baseConfig) {
     resolver: {
       assetExts: assetExts.filter((ext) => ext !== 'svg'),
       sourceExts: [...sourceExts, 'svg', 'cjs'],
+      unstable_enableSymlinks: true,
+      unstable_enablePackageExports: true,
     },
     transformer: {
       babelTransformerPath: require.resolve('./metro.transform.js'),
